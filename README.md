@@ -17,6 +17,10 @@ template も基に XML が生成されているため、
 \# KVM 上で Intel DPDK (http://dpdk.org/) を動かすために、
 \# CPU の細かな設定をする必要があったため。
 
+コードの詳細は、
+https://github.com/k-kosuga/vagrant-libvirt-custemplates.git
+を参照。
+
 環境
 ---------------------------
 下記の環境で検証済み。
@@ -60,7 +64,7 @@ template も基に XML が生成されているため、
 ### ツール使い方
 1. git clone する
 
-        % git clone https://github.com/k-kosuga/vagrant-libvirt-custemplates
+        % git clone https://github.com/k-kosuga/vagrant-libvirt-custemplates.git
         % cd vagrant-libvirt-custemplates/
 
 2. template を構築したい環境に合わせて変更する
