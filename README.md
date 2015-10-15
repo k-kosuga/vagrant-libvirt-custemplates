@@ -14,7 +14,8 @@ template も基に XML が生成されているため、
 そこで、
 環境にあまり影響しないように(Vagrantfile だけで完結できるように)、
 ツール(という程でもないが)を作ってみた。
-\# KVM 上で Intel DPDK (http://dpdk.org/) を動かすために、
+
+\# KVM 上で Intel DPDK (http://dpdk.org/) を動かすために、  
 \# CPU の細かな設定をする必要があったため。
 
 コードの詳細は、
